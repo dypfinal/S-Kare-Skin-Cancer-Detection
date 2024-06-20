@@ -36,28 +36,28 @@ This repository contains the code for a comprehensive skin cancer detection and 
 
 ### Installation Steps:
 1. **Clone the Repository**
-    \`\`\`sh
+    ```sh
     git clone https://github.com/dypfinal/skin-cancer-detection.git
     cd skin-cancer-detection
-    \`\`\`
+    ```
 2. **Create and Activate Virtual Environment**
-    \`\`\`sh
+    ```sh
     python -m venv env
     env\Scripts\activate.bat  # On Windows
     source env/bin/activate   # On Unix or MacOS
-    \`\`\`
+    ```
 3. **Install Dependencies**
-    \`\`\`sh
+    ```sh
     pip install -r requirements.txt
-    \`\`\`
+    ```
 4. **Apply Migrations**
-    \`\`\`sh
+    ```sh
     python manage.py migrate
-    \`\`\`
+    ```
 5. **Run the Development Server**
-    \`\`\`sh
+    ```sh
     python manage.py runserver
-    \`\`\`
+    ```
 
 ## Usage
 
@@ -69,13 +69,6 @@ This repository contains the code for a comprehensive skin cancer detection and 
 6. **Review the analysis results** to check the likelihood of skin cancer.
 7. **Book a consultation** if the prediction indicates high risk.
 
-## Contributing
-
-1. Fork the repository.
-2. Create your feature branch (\`git checkout -b feature/YourFeature\`).
-3. Commit your changes (\`git commit -am 'Add some feature'\`).
-4. Push to the branch (\`git push origin feature/YourFeature\`).
-5. Create a new Pull Request.
 
 ## License
 

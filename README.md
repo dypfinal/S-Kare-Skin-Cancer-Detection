@@ -33,32 +33,21 @@ This repository contains the code for a comprehensive skin cancer detection. The
 ### Installation Steps:
 1. **Clone the Repository**
     ```sh
-    git clone https://github.com/dypfinal/skin-cancer-detection.git
-    cd skin-cancer-detection
+    cd  s-kare_chatbot
     ```
-2. **Create and Activate Virtual Environment**
-    ```sh
-    python -m venv env
-    env\Scripts\activate.bat  # On Windows
-    source env/bin/activate   # On Unix or MacOS
-    ```
-3. **Install Dependencies**
+2. **Install Dependencies**
     ```sh
     pip install -r requirements.txt
     ```
-4. **Apply Migrations**
+3. **Run the Development Server**
     ```sh
-    python manage.py migrate
-    ```
-5. **Run the Development Server**
-    ```sh
-    python manage.py runserver
+    streamlit run app.py --server.enableXsrfProtection false
     ```
 
 ## Usage
 
 1. **Run the server** as described in the installation steps.
-2. **Access the application** at \`http://127.0.0.1:8000/\`.
+2. **Access the application** at localhost.
 3. **Interact with the NLP chatbot** to describe your skin condition.
 4. **Upload an image** of the affected skin area.
 5. **Add metadata** such as age, gender, and area of localization.

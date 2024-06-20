@@ -35,7 +35,7 @@ This repository contains the code for a comprehensive skin cancer detection. The
     ```sh
     cd  s-kare_chatbot
     ```
-2. **Install Dependencies**
+2. **Install Requriement**
     ```sh
     pip install -r requirements.txt
     ```

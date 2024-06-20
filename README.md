@@ -3,7 +3,7 @@
 
 ## Overview
 
-This repository contains the code for a comprehensive skin cancer detection and consultation system. The application leverages advanced NLP techniques and image analysis to provide an efficient and user-friendly solution for patients concerned about skin health. Key features include an NLP chatbot, image upload and analysis, and consultation booking for high-risk predictions.
+This repository contains the code for a comprehensive skin cancer detection. The application leverages advanced NLP techniques and image analysis to provide an efficient and user-friendly solution for patients concerned about skin health. Key features include an NLP chatbot, image upload and analysis, and consultation booking for high-risk predictions.
 
 ## Features
 
@@ -22,10 +22,6 @@ This repository contains the code for a comprehensive skin cancer detection and 
 ### Image Analysis
 - **Analyzes the uploaded image** to predict the likelihood of skin cancer.
 - **Uses machine learning models** trained on a diverse dataset of skin images.
-
-### Consultation Redirect
-- **Redirects patients with high-risk predictions** to a kiosk page.
-- **Facilitates booking an appointment** with available doctors for further consultation.
 
 ## Setup & Installation
 

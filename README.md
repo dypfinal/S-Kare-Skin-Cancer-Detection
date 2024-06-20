@@ -31,7 +31,7 @@ This repository contains the code for a comprehensive skin cancer detection and 
 
 ### Prerequisites:
 - Python 3.8+
-- Django 3.x
+- Django 3.
 - Pip
 
 ### Installation Steps:

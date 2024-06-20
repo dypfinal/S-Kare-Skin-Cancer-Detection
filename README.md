@@ -37,7 +37,7 @@ This repository contains the code for a comprehensive skin cancer detection and 
 ### Installation Steps:
 1. **Clone the Repository**
     \`\`\`sh
-    git clone https://github.com/yourusername/skin-cancer-detection.git
+    git clone https://github.com/dypfinal/skin-cancer-detection.git
     cd skin-cancer-detection
     \`\`\`
 2. **Create and Activate Virtual Environment**

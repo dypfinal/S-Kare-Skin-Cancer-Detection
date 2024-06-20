@@ -1,5 +1,5 @@
 
-# Skin Cancer Detection and Consultation System
+# Skin Cancer Detection S-Kare
 
 ## Overview
 

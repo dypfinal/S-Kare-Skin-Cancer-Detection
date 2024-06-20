@@ -1,5 +1,5 @@
 
-# Skin Cancer Detection S-Kare
+# S-Kare Skin Cancer Detection 
 
 ## Overview
 

@@ -3,9 +3,9 @@
 
 ## Overview
 
-This repository contains the code for a comprehensive skin cancer detection. The application leverages advanced NLP techniques and image analysis to provide an efficient and user-friendly solution for patients concerned about skin health. Key features include an NLP chatbot, image upload and analysis, and consultation booking for high-risk predictions.
+This repository contains the code for a comprehensive skin cancer detection. The application leverages advanced NLP techniques and image analysis to provide an efficient and user-friendly solution for patients concerned about skin health. Key features include an NLP chatbot, image upload and analysis, and consultation booking for high-risk predictions. There are 2 Interfaces , one for Patient (App Directory) and another for Doctors(Doctor App Directory)
 
-## Features
+## Features - Patient
 
 ### NLP Chatbot
 - **Engages in a conversation** with the patient to understand their skin problems using advanced NLP techniques.
@@ -23,6 +23,12 @@ This repository contains the code for a comprehensive skin cancer detection. The
 - **Analyzes the uploaded image** to predict the likelihood of skin cancer.
 - **Uses machine learning models** trained on a diverse dataset of skin images.
 
+## Features - Doctor Interface
+
+### Report Generation - (Doctor App Directory)
+- **Add Image and Metadata and get detailed PDF Report for diagnostic Support
+
+
 ## Setup & Installation
 
 ### Prerequisites:
@@ -39,7 +45,12 @@ This repository contains the code for a comprehensive skin cancer detection. The
     ```sh
     pip install -r requirements.txt
     ```
-3. **Run the Development Server**
+3. **Navigate to App or Doctor App directory as per requirment.
+    ```sh
+    cd  App / cd Doctor App
+    ```
+   
+5. **Run the Development Server**
     ```sh
     streamlit run app.py --server.enableXsrfProtection false
     ```
